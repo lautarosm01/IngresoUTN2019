@@ -2,8 +2,8 @@
 transformarlos a enteros (parseInt) y Sumarlos.
 Mostar el resulto por medio de "ALERT"*/
 function sumar()
-{
-    var num1  
+
+/*    var num1  
     var num2
     var resultado
 
@@ -15,6 +15,16 @@ function sumar()
     
     resultado = num1+num2   
     
-    alert("la suma es "+resultado)
-}
+    alert("la suma es "+resultado)*/
 
+
+{
+    var num1   
+    var num2
+
+    num1 = parseInt(document.getElementById("numeroUno").value) /* es la mejor forma de escribirlo */
+    
+    num2 = parseInt(document.getElementById("numeroDos").value)
+
+    alert ("La suma es "+ (num1+num2))
+}
